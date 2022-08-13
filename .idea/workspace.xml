@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4b8ef93-9117-48c6-997f-7542ca14164e" name="Changes" comment="">
+    <list default="true" id="a4b8ef93-9117-48c6-997f-7542ca14164e" name="Changes" comment="example Bill">
+      <change afterPath="$PROJECT_DIR$/src/University/Professor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Managing_bill/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Managing_bill/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Managing_bill/BillList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Managing_bill/BillList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/University/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/University/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -38,27 +36,27 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Managing_bill" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BillList">
+  <component name="RunManager" selected="Application.Professor">
     <configuration name="Bill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Managing_bill.Bill" />
       <module name="Lab6" />
@@ -92,19 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Employee.Main" />
-      <module name="Lab6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Employee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PolymorphismExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PolymorphismExample" />
       <module name="Lab6" />
@@ -112,13 +97,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Professor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="University.Professor" />
+      <module name="Lab6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="University.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Professor" />
         <item itemvalue="Application.BillList" />
         <item itemvalue="Application.GFG" />
         <item itemvalue="Application.PolymorphismExample" />
         <item itemvalue="Application.Bill" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +130,23 @@
       <updated>1660265597973</updated>
       <workItem from="1660265599654" duration="24890000" />
       <workItem from="1660361260498" duration="9567000" />
+      <workItem from="1660394721245" duration="1386000" />
     </task>
+    <task id="LOCAL-00001" summary="example Bill">
+      <created>1660394984294</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660394984294</updated>
+    </task>
+    <task id="LOCAL-00002" summary="example Bill">
+      <created>1660395014624</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660395014624</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,5 +162,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="example Bill" />
+    <option name="LAST_COMMIT_MESSAGE" value="example Bill" />
   </component>
 </project>
