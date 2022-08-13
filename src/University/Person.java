@@ -1,2 +1,4 @@
-package University;public class Person {
+package University;
+
+public class Person {
 }
