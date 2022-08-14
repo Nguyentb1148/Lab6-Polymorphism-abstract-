@@ -32,7 +32,8 @@ public abstract class Person {
     }
     public abstract String description();
     public void display() {
-        System.out.println("Person code:" + code); System.out.println("Person name:" + name);
+        System.out.println("Person code:" + code);
+        System.out.println("Person name:" + name);
         System.out.println("Rank:" + rank);
     }
 }

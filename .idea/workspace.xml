@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4b8ef93-9117-48c6-997f-7542ca14164e" name="Changes" comment="example Bill">
-      <change afterPath="$PROJECT_DIR$/src/University/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/University/TestPerson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Managing_bill/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Managing_bill/Bill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Managing_bill/BillList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Managing_bill/BillList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/University/PersonList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/University/PersonList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/University/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/University/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/University/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/University/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
       <recent name="Managing_bill" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestPerson">
+  <component name="RunManager" selected="Application.BillList">
     <configuration name="BillList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Managing_bill.BillList" />
       <module name="Lab6" />
@@ -114,8 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestPerson" />
         <item itemvalue="Application.BillList" />
+        <item itemvalue="Application.TestPerson" />
         <item itemvalue="Application.Professor" />
         <item itemvalue="Application.GFG" />
         <item itemvalue="Application.PolymorphismExample" />
@@ -133,7 +131,7 @@
       <workItem from="1660265599654" duration="24890000" />
       <workItem from="1660361260498" duration="9567000" />
       <workItem from="1660394721245" duration="4584000" />
-      <workItem from="1660460321120" duration="2001000" />
+      <workItem from="1660460321120" duration="7665000" />
     </task>
     <task id="LOCAL-00001" summary="example Bill">
       <created>1660394984294</created>
