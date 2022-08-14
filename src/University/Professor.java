@@ -1,22 +1,18 @@
 package University;
-
 public class Professor extends Person {
     protected String department;
     public Professor(String code, String name, int rank,String department) {
         super(code, name, rank);
         this.department=department;
     }
-
     public String getDepartment() {
         return department;
     }
     public Professor(){
-
     }
     public void setDepartment(String department) {
         this.department = department;
     }
-
     @Override
     public String description() {
         switch (rank){
@@ -30,7 +26,6 @@ public class Professor extends Person {
             default: return "Error: Wrong rank. No description";
         }
     }
-
     @Override
     public void display() {
         super.display();

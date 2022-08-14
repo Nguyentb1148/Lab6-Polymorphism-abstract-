@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4b8ef93-9117-48c6-997f-7542ca14164e" name="Changes" comment="example Bill">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ant/Ant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ant/Drone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ant/Queen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ant/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Managing_bill/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Managing_bill/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Managing_bill/BillList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Managing_bill/BillList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/University/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/University/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/University/PersonList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/University/PersonList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/University/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/University/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/University/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/University/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/University/TestPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/University/TestPerson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,27 +44,41 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Managing_bill" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BillList">
+  <component name="RunManager" selected="Application.Ant">
+    <configuration name="Ant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ant.Ant" />
+      <module name="Lab6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BillList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Managing_bill.BillList" />
       <module name="Lab6" />
@@ -70,15 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GFG" />
-      <module name="Lab6" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PolymorphismExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PolymorphismExample" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Lab6" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BillList" />
+        <item itemvalue="Application.Ant" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestPerson" />
+        <item itemvalue="Application.BillList" />
         <item itemvalue="Application.Professor" />
-        <item itemvalue="Application.GFG" />
-        <item itemvalue="Application.PolymorphismExample" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +146,7 @@
       <workItem from="1660265599654" duration="24890000" />
       <workItem from="1660361260498" duration="9567000" />
       <workItem from="1660394721245" duration="4584000" />
-      <workItem from="1660460321120" duration="7665000" />
+      <workItem from="1660460321120" duration="14871000" />
     </task>
     <task id="LOCAL-00001" summary="example Bill">
       <created>1660394984294</created>

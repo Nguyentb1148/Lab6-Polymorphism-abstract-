@@ -1,7 +1,4 @@
 package Managing_bill;
-
-import java.util.Scanner;
-
 public class Bill {
     protected int code;
     protected String type;

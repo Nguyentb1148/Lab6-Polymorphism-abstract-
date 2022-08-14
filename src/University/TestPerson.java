@@ -1,7 +1,5 @@
 package University;
-
 import java.util.Scanner;
-
 public class TestPerson {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

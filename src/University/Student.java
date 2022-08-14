@@ -1,5 +1,4 @@
 package University;
-
 public class Student extends Person{
     protected String degreeProgram;
     protected int yearOfGraduation;
@@ -8,26 +7,21 @@ public class Student extends Person{
         this.degreeProgram=degreeProgram;
         this.yearOfGraduation=yearOfGraduation;
     }
-
     public Student(){
 
     }
     public String getDegreeProgram() {
         return degreeProgram;
     }
-
     public void setDegreeProgram(String degreeProgram) {
         this.degreeProgram = degreeProgram;
     }
-
     public int getYearOfGraduation() {
         return yearOfGraduation;
     }
-
     public void setYearOfGraduation(int yearOfGraduation) {
         this.yearOfGraduation = yearOfGraduation;
     }
-
     @Override
     public void display() {
         super.display();
@@ -35,7 +29,6 @@ public class Student extends Person{
         System.out.println("Degree Program: "+degreeProgram);
         System.out.println("Year of Graduation: "+yearOfGraduation);
     }
-
     @Override
     public String description() {
         switch (rank){

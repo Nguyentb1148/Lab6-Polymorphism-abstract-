@@ -1,5 +1,4 @@
 package University;
-
 public abstract class Person {
     protected String code;
     protected String name;
@@ -10,7 +9,6 @@ public abstract class Person {
         this.rank = rank;
     }
     public Person(){
-
     }
     public void setCode(String code) {
         this.code = code;

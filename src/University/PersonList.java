@@ -1,5 +1,4 @@
 package University;
-
 public class PersonList {
     private final Person[] myPersonList;
     private int nbPeople;
@@ -30,15 +29,16 @@ public class PersonList {
         }
         return (double)sum/nbPeople;
     }
-    public Person maxRank(){
+    public void maxRank(){
         int index=-1;
         int max=Integer.MIN_VALUE;
         for (int i = 0; i < nbPeople; i++) {
             if (myPersonList[i].getRank()>=max){
-                index=i;
+                max=myPersonList[i].getRank();
             }
         }
-        return myPersonList[index];
+        System.out.println("Max rank: "+max);
+
     }
     public void removePerson(String code){
         int index=-1;
