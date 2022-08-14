@@ -38,12 +38,4 @@ public class Professor extends Person {
         System.out.println("Professor department: "+department);
     }
 
-    public static void main(String[] args) {
-        PersonList myPersonList = new PersonList();
-        Person person1 = new Professor("1", "Pham Thanh Son", 3,"Computing");
-        Person person2 = new Professor("43", "Tran Van Linh", 5, "Geographic");
-        myPersonList.add(person1);
-        myPersonList.add(person2);
-        myPersonList.displayAll();
-    }
 }

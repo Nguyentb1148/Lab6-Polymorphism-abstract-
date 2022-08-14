@@ -4,13 +4,13 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Collections;
 public class BillList {
-    public static final int SIZE = 100;
-    private static  Bill[] myBillList;
+//    public static final int SIZE = 100;
+    public static  Bill[] myBillList=new Bill[100];
     private static int nbPeople;
-    public BillList() {
-        myBillList = new Bill[SIZE];
-        nbPeople = 0;
-    }
+//    public BillList() {
+//        myBillList = new Bill[SIZE];
+//        nbPeople = 0;
+//    }
 
     public  void add(Bill p){
         myBillList[nbPeople] = p;
@@ -35,28 +35,28 @@ public class BillList {
     }
 
     public static void main(String[] args) {
-        BillList myPersonList = new BillList();
-        Bill person1 = new Bill(1,"abc",10,20,1) ;
-        Bill person2 = new Bill(2,"a",20,30,400);
-        Bill person3 = new Bill(3,"b",10,30,3);
-        Bill person4 = new Bill(4,"a",20,30,1);
-        myPersonList.add(person1);
-        myPersonList.add(person2);
-        myPersonList.add(person3);
-        myPersonList.add(person4);
-        myPersonList.displayAll();
-        myPersonList.totalSameType("a");
+//        BillList myPersonList = new BillList();
+//        Bill person1 = new Bill(1,"abc",10,20,1) ;
+//        Bill person2 = new Bill(2,"a",20,30,400);
+//        Bill person3 = new Bill(3,"b",10,30,3);
+//        Bill person4 = new Bill(4,"a",20,30,1);
+//        myPersonList.add(person1);
+//        myPersonList.add(person2);
+//        myPersonList.add(person3);
+//        myPersonList.add(person4);
+//        myPersonList.displayAll();
+//        myPersonList.totalSameType("a");
 //
-//        Scanner sc=new Scanner(System.in);
-//        System.out.print("Number: ");
-//        int number = sc.nextInt();
-//
-//        for (int i = 0; i < number; i++) {
-//            myBillList[i].input();
-//            myBillList[i].price();
-//        }
-//        for (int i = 0; i < number; i++) {
-//            myBillList[i].display();
-//        }
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Number: ");
+        int number = sc.nextInt();
+
+        for (int i = 0; i < number; i++) {
+            myBillList[i].input();
+            myBillList[i].price();
+        }
+        for (int i = 0; i < number; i++) {
+            myBillList[i].display();
+        }
     }
 }
